@@ -1,17 +1,17 @@
 # seymafirat-odev1
 # FİGMA EKRANLARI
 
-** Login ekranının ekran görüntüsü:
+Login ekranının ekran görüntüsü:
 
 ![image](loginscreen.JPG)
 
-** Anasayfanın ekran görüntüsü:
+Anasayfanın ekran görüntüsü:
 
 ![image](homescreen.JPG)
 
 Anasayfada listelenen restoranlar için recyclerview componenti kullanıldı.
 
-LIVE DATA
+# LIVE DATA
 
 ![image](ld1.JPG)
 
