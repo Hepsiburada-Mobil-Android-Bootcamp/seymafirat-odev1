@@ -9,7 +9,7 @@ Anasayfanın ekran görüntüsü:
 
 ![image](homescreen.JPG)
 
-Anasayfada listelenen restoranlar için recyclerview componenti kullanıldı.
+Anasayfada listelenen restorantlar için recyclerview componenti kullanıldı. Menü için chip navigation bar kullanıldı.
 
 # LIVE DATA
 
