@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/res_img"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/res1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="102dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Conrad food"
+        android:textColor="#18172B"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/res_img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/res_number"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:drawableLeft="@drawable/star"
+        android:fontFamily="@font/poppins_medium"
+        android:text="4.6"
+        android:textColor="#18172B"
+        app:layout_constraintStart_toEndOf="@+id/res_img"
+        app:layout_constraintTop_toBottomOf="@+id/res_name" />
+
+    <TextView
+        android:id="@+id/res_type"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="•Pizza •"
+        android:textColor="#6E80B0"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/res_number"
+        app:layout_constraintTop_toBottomOf="@+id/res_name" />
+
+    <TextView
+        android:id="@+id/res_time"
+        android:layout_width="88dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/time"
+        android:fontFamily="@font/poppins_medium"
+        android:text="15 min"
+        android:textAlignment="center"
+        android:textColor="#6E80B0"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/res_type"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/res_sale"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="88dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="%50 OFF"
+        android:textColor="#6D61F2"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@+id/res_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

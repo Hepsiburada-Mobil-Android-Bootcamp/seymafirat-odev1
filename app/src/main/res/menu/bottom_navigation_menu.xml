@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ichome"
+        app:cnb_textColor="#6D61F2"
+        app:cnb_iconColor="#6D61F2"
+        app:cnb_backgroundColor="#f7f6fb"
+        />
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search_icon"
+        app:cnb_textColor="#6D61F2"
+        app:cnb_iconColor="#6D61F2"
+        app:cnb_backgroundColor="#f7f6fb"
+        />
+    <item
+        android:id="@+id/basket"
+        android:title="Basket"
+        android:icon="@drawable/basket_icon"
+        app:cnb_textColor="#6D61F2"
+        app:cnb_iconColor="#6D61F2"
+        app:cnb_backgroundColor="#f7f6fb"
+        />
+    <item
+        android:id="@+id/account"
+        android:title="User"
+        android:icon="@drawable/user_icon"
+        app:cnb_textColor="#6D61F2"
+        app:cnb_iconColor="#6D61F2"
+        app:cnb_backgroundColor="#f7f6fb"
+        />
+</menu>
